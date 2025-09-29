@@ -1,0 +1,114 @@
+.header{
+    width: 100%;
+    background-color: #74C69D;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 35px 0 83px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav{
+    width: 81.6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.ul-logo a{
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+.ul-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ul-nav a{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+.header-info{
+    width: 81.96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.info-title{
+    width: 35.24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.info-title__welcome{
+    width: 100%;
+    font-family: Work Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.info-title__title{
+    width: 100%;
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+}
+
+.info-title__desc{
+    width: 100%;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 75%;
+}
+
+.info-title__btn-cont{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.info-title__button{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+@font-face {
+    font-family: Work Sans;
+    src: url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+}
+
+@font-face {
+    font-family: Crimson Text;
+    src: url(https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+}
