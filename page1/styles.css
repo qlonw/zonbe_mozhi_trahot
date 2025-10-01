@@ -103,6 +103,202 @@
     color: black;
 }
 
+.main{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.partners{
+    width: 80.42%;
+    margin-top: 60px;
+    gap: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-info{
+    width: 35.46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.partners-info__small-title{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #74C69D;
+}
+
+.partners-info__title{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+
+.partners-info__desc{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: black;
+}
+
+.partners-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-content__content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners__partners-btn-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners__button{
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+}
+
+.main-info-one{
+    gap: 88px;
+    margin-top: 73px;
+    width: 81.94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-info-one-title{
+    width: 39.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main-info-one-title__title{
+    width: 100%;
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    color: #212529;
+}
+
+.main-info-one-title__desc{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 50%;
+    color: #212529;
+}
+
+.main-info-one-title__btn-cont{
+    margin-top: 10px;    
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.main-info-one-title__button{
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+}
+
+.main-info-two{
+    width: 81.96%;
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.main-info-two-text{
+    width: 39.83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main-info-two-text__title{
+    width: 100%;
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+}
+
+.main-info-two-text__desc{
+    width: 100%;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.main-info-two-text__btn-cont{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main-info-two-text__button{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
 @font-face {
     font-family: Work Sans;
     src: url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
