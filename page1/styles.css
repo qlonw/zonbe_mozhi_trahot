@@ -1,3 +1,9 @@
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 125%;
+}
+
 .header{
     width: 100%;
     background-color: #74C69D;
@@ -297,6 +303,68 @@
     border-radius: 5px;
     background-color: black;
     color: white;
+}
+
+.team{
+    width: calc(1176/1440 * 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 102px;
+}
+
+.team-info{
+    width: calc(404/1176 * 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.team-info__title-small{
+    font-family: Work Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #74C69D;
+}
+
+.team-info__title-big{
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 125%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #212529;
+}
+
+.team-info__info{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+}
+
+.staff-profiles{
+    width: 100%;
+    display: grid;
+    grid-template: auto/repeat(4, auto);
+    gap: 47px;
+}
+
+.staff-legge{
+    width: calc(279/1176 * 100%);
+    height: 299px;
 }
 
 @font-face {
